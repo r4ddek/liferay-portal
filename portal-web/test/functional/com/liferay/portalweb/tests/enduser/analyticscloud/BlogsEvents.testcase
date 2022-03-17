@@ -45,7 +45,7 @@ definition {
 	@priority = "3"
 	test CheckBlogClickedTriggeredWhenBlogClicked {
 		property proxy.server.enabled = "true";
-		property portal.upstream = "quarantine";
+		
 
 		// AC Refactor ticket: LRAC-9599
 
